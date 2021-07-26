@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147487380748",
+    "project_id": "alfa-cafe",
+    "storage_bucket": "alfa-cafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147487380748:android:b2ae08eceea929f59ea529",
+        "android_client_info": {
+          "package_name": "com.example.alfa_cafe_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147487380748-7pbl9t8iiecchlqc3o14p63h8sg3t41m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIjDOFZIwP111nRObIDFHNkBkaN5XklJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147487380748-7pbl9t8iiecchlqc3o14p63h8sg3t41m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

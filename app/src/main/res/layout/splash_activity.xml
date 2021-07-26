@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/Entrance"
+    >
+    <RelativeLayout
+        android:id="@+id/alpha"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:id="@+id/alfabank_lo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/alfa_logo_white" />
+
+        <TextView
+            android:id="@+id/alfabank_lo_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Альфа·Кафе"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/source_sans_pro_light"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+
+
+        />
+    </RelativeLayout>
+<TextView
+    android:id="@+id/some_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:text="не за что краснеть"
+    android:fontFamily="@font/open_sans_light"
+    android:textColor="@color/white"
+    android:layout_marginBottom="10dp"
+    android:textSize="17sp"
+    />
+</RelativeLayout>

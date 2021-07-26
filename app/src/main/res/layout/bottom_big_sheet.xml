@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_big_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:behavior_peekHeight="0dp"
+    style="@style/TopCornersWhite"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+    <RelativeLayout
+        android:id="@+id/top_big"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="@style/TopHalfGrey"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="15dp"
+            android:src="@drawable/go_bottom"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_big"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/lin_big"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+    </ScrollView>
+
+</RelativeLayout>

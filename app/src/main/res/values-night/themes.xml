@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Alfa_cafe_2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">#8C0900</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#8C0900</item>
+        <item name="colorSecondaryVariant">#8C0900</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyBack">
+
+    </style>
+    <style name="Entrance">
+        <item name="android:background">@drawable/gradient_ent</item>
+    </style>
+    <style name="TypesBack" >
+        <item name="android:background">@drawable/default_back_for_list_half_dark</item>
+    </style>
+
+    <style name="WhiteTxt" >
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Scan">
+        <item name="android:src">@drawable/scan_white</item>
+    </style>
+    <style name="Gradient">
+        <item name="android:background">@drawable/black_gradient</item>
+    </style>
+    <style name="BlackBack">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="GreyBack">
+        <item name="android:background">@drawable/drawable_for_list_half_black</item>
+    </style>
+    <style name="VeryGrey" >
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="arrow">
+        <item name="android:src">@drawable/arr_white</item>
+    </style>
+    <style name="TopHalfGrey">
+        <item name="android:background">@drawable/top_corners_light_grey</item>
+    </style>
+
+    <style name="TopCornersWhite">
+        <item name="android:background">@drawable/drawable_for_list_half_black</item>
+    </style>
+    <style name="BackForUs">
+        <item name="android:background">@drawable/black_gradient_for_about_us</item>
+    </style>
+</resources>
